@@ -1,0 +1,19 @@
+{
+  "name": "html-to-temple",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "gh-build": "vite build --base='/html-to-temple/'",
+    "serve": "vite preview"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.2.4",
+    "postcss": "^8.2.6",
+    "tailwindcss": "^2.0.3",
+    "vite": "^2.0.0-beta.70"
+  },
+  "dependencies": {
+    "web-tree-sitter": "^0.19.4"
+  }
+}
